@@ -1,0 +1,123 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Flexyoga &mdash; Colorlib Website Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
+  <link rel="stylesheet" href="{% static 'css/home_style.css' %}">
+
+</head>
+
+<body>
+
+  <div class="site-wrap">
+
+    <div class="site-block-half d-flex min-vh-100">
+      <div class="image bg-image" style="background-image: url('{% static 'images/img_1.jpg' %}');"></div>
+      <div class=" text">
+        <h2 class="font-family-serif">Welcome To Flexyoga</h2>
+        <span class="caption d-block text-primary pl-0 mb-4">Hello there!</span>
+        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti odio laboriosam in recusandae
+          expedita ducimus voluptatum provident doloremque doloribus, deserunt, ad maxime voluptas voluptatem ex qui
+          quam saepe debitis dolorum!</p>
+        <p><a href="#pricing" class="btn btn-primary pill px-4 py-3 text-white col-md-6">See The Yoga
+            Pricing</a></p>
+        <p><a href="{% url 'register' %}" class="btn btn-primary pill px-4 py-3 text-white col-md-6">Register</a></p>
+        <p><a href="{% url 'search' %}" class="btn btn-primary pill px-4 py-3 text-white col-md-6">View Student
+            Details</a></p>
+      </div>
+    </div>
+
+    <div class="site-section bg-light min-vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2 class="mb-5">Available Time Slots</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-lg-3 mb-6">
+            <div class="program">
+              <a href="{% url 'register' %}" class="d-block mb-0 thumbnail"><img src="{% static 'images/6-7.jpg' %}"
+                  alt="Image" class="img-fluid"></a>
+              <div class="program-body text-center">
+                <p><a href="{% url 'register' %}">6 - 7 AM</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 mb-6">
+            <div class="program">
+              <a href="{% url 'register' %}" class="d-block mb-0 thumbnail"><img src="{% static 'images/7-8.jpg' %}"
+                  alt="Image" class="img-fluid"></a>
+              <div class="program-body text-center">
+                <p><a href="{% url 'register' %}">7 - 8 AM</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 mb-6">
+            <div class="program">
+              <a href="{% url 'register' %}" class="d-block mb-0 thumbnail"><img src="{% static 'images/8-9.jpg' %}"
+                  alt="Image" class="img-fluid"></a>
+              <div class="program-body text-center">
+                <p><a href="{% url 'register' %}">8 - 9 AM</a></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 mb-6">
+            <div class="program">
+              <a href="{% url 'register' %}" class="d-block mb-0 thumbnail"><img src="{% static 'images/5-6.jpg' %}"
+                  alt="Image" class="img-fluid"></a>
+              <div class="program-body text-center">
+                <p><a href="{% url 'register' %}">5 - 6 PM</a></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section min-vh-100" id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2 class="mb-5">Yoga Pricing</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretched">
+          <div class="col-md-8 col-lg-4 mb-4 mx-auto">
+            <div class="pricing p-5 h-100 text-center bg-image no-border"
+              style="background-image: url('{% static 'images/img_1.jpg'%}');">
+              <div class="pricing-content">
+                <div class="text-center mb-4">
+                  <h3 class="h4 mb-4">Monthly classes</h3>
+                  <strong class="font-weight-normal h1 text-white">Rs 500/-</strong>
+                </div>
+                <ul class="list-unstyled mb-5">
+                  <li>Classes for 1 month</li>
+                  <li>Select comfortable slot</li>
+                  <li>Month to month basis fees</li>
+                  <li>Pay antime in the month</li>
+                </ul>
+                <p class="mb-0"><a href="{% url 'register' %}" class="btn pill btn-outline-white">Join Now</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

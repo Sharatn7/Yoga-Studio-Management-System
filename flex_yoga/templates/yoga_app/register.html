@@ -17,7 +17,6 @@
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- Main Style Css -->
 	<link rel="stylesheet" href="{% static 'css/register_style.css' %}">
-
 </head>
 
 <body class="form-v10">
@@ -113,9 +112,16 @@
 							</div>
 						</div>
 					</div>
+					<div class="d-flex justify-content-center">
+						<p><a href="{% url 'home' %}" class="btn pill btn-primary btn-outline-white">Go
+								to Home
+								page</a>
+						</p>
+					</div>
+				</div>
 			</form>
 		</div>
 	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>

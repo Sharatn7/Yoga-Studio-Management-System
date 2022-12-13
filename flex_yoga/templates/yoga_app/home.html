@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-  <title>Flexyoga &mdash; Colorlib Website Template</title>
+  <title>Flexyoga</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,7 +21,7 @@
 
   <div class="site-wrap">
 
-    <div class="site-block-half d-flex min-vh-100">
+    <div class="site-block-half d-flex vh-100">
       <div class="image bg-image" style="background-image: url('{% static 'images/img_1.jpg' %}');"></div>
       <div class=" text">
         <h2 class="font-family-serif">Welcome To Flexyoga</h2>
@@ -31,13 +31,14 @@
           quam saepe debitis dolorum!</p>
         <p><a href="#pricing" class="btn btn-primary pill px-4 py-3 text-white col-md-6">See The Yoga
             Pricing</a></p>
+        <p><a href="#time" class="btn btn-primary pill px-4 py-3 text-white col-md-6">Yoga Timing</a></p>
         <p><a href="{% url 'register' %}" class="btn btn-primary pill px-4 py-3 text-white col-md-6">Register</a></p>
         <p><a href="{% url 'search' %}" class="btn btn-primary pill px-4 py-3 text-white col-md-6">View Student
             Details</a></p>
       </div>
     </div>
 
-    <div class="site-section bg-light min-vh-100">
+    <div class="site-section bg-light min-vh-100" id="time">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">

@@ -11811,7 +11811,7 @@ h5,
 
 .table thead th {
   border: none;
-  padding: 30px;
+  padding: 10px;
   font-size: 13px;
   font-weight: 500;
   color: gray;
@@ -11831,10 +11831,18 @@ h5,
   border-bottom: 0;
 }
 
+.table tbody tr:hover {
+  background-color: coral;
+}
+
+.table-responsive {
+  max-height: 100vh;
+}
+
 .table tbody th,
 .table tbody td {
   border: none;
-  padding: 30px;
+  padding: 10px;
   font-size: 14px;
   background: #fff;
   vertical-align: middle;

@@ -13,3 +13,13 @@ every month and he can pay it any time of the month.**
 participants can choose any batch in a month and can move to any other batch next
 month. I.e. participants can shift from one batch to another in different months but in
 same month they need to be in same batch**
+
+# To run the Django project 
+
+1) cd to development directory
+2) mkvirtualenv flexproject
+3) mkdir flexproject
+4) clone repository to new directory
+5) pip install -r requirements.txt
+6) python manage.py runserver
+7) https://localhost:8000 

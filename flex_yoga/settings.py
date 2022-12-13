@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-^j+!%2o6hl2wsj*rh)h5de#3%sj)yxq-9lufd7!8s)fn*h1-qs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://flexassignment-production.up.railway.app']
+ALLOWED_HOSTS = ['https://flexassignment-production.up.railway.app',
+                 'flexassignment-production.up.railway.app']
 
 CSRF_TRUSTED_ORIGINS = ['https://flexassignment-production.up.railway.app']
 # Application definition

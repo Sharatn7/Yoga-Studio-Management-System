@@ -1,5 +1,7 @@
 # Flex_assignment
 Yoga application module done using HTML, CSS and Django.
+
+Railway platform deployment link: [deploy link](flexassignment-production.up.railway.app)
  
 * **This is a reception/help desk perspective based application, where a yoga student or prospective student can view their details or register as student respectively.**
 * **The processes are based of the Id that's generated for each student uniquely upon registration, which is used for viewing their details, making payments, and requesting for slot change.**

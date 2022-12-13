@@ -45,7 +45,7 @@ def addrecord(request):
     zip = request.POST['zip']
     country = request.POST['country']
     phone = request.POST['phone']
-    fee_status = 'paid'
+    fee_status = 'unpaid'
     batch_change = ''
     date_joined = (datetime.now().date()).isoformat()
     current_batch_slot = request.POST['slot']

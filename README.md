@@ -1,7 +1,10 @@
 # Flex_assignment
 Yoga application module done using HTML, CSS and Django.
  
-**This is a reception/help desk perspective based application, where a yoga student or prospective student can view their details or register as student respectively.**
+* **This is a reception/help desk perspective based application, where a yoga student or prospective student can view their details or register as student respectively.**
+* **The processes are based of the Id that's generated for each student uniquely upon registration, which is used for viewing their details, making payments, and requesting for slot change.**
+* **Currently the application updates the data when the display function is called, for future upgrade it can be auto run using scheduler so that the data gets updated every day(maybe midnight)**
+
  
  ## In this application
 * **Only people within the age limit of 18-65 can enroll for the monthly classes and they will

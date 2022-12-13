@@ -908,13 +908,13 @@ a:hover {
 
 @media (min-width: 992px) {
   .site-block-half .text {
-    padding: 4rem;
+    padding: 2rem;
   }
 }
 
 @media (min-width: 1200px) {
   .site-block-half .text {
-    padding: 8rem;
+    padding: 4rem;
   }
 }
 

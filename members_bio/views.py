@@ -28,9 +28,11 @@ def display(request, id=None):
         user_id = request.POST['user_id']
     else:
         user_id = request.session.get('_id')
-    # calling the update function
-    reload(user_id)
-    member = Membersinfo.objects.values().get(id=int(user_id))
+    # calling the update function if user id exists
+    member = {}
+    if Membersinfo.objects.filter(id=int(user_id)).exists():
+        reload(user_id)
+        member = Membersinfo.objects.values().get(id=int(user_id))
     return render(request, 'yoga_app/detail.html', context={'details': member})
 
 

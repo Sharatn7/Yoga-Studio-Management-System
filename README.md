@@ -1,4 +1,5 @@
-# Flex_assignment
+# Yoga Studio Management System
+Flex_assignment
 Yoga application module done using HTML, CSS and Django.
 
 Railway platform deployment link: [deploy link](flexassignment-production.up.railway.app)
